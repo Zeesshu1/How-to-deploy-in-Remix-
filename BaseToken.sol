@@ -8,5 +8,4 @@ contract BaseToken is ERC20 {
         string memory name, 
         string memory symbol, 
         uint256 initialSupply
-    ) ERC20(name, symbol) {
-        _m
+    ) ERC20(name, 
