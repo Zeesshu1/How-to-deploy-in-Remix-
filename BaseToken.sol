@@ -10,4 +10,3 @@ contract BaseToken is ERC20 {
         uint256 initialSupply
     ) ERC20(name, symbol) {
         _mint(msg.sender, initialSupply * (10 ** decimals()));
-    }
